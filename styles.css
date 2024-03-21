@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.Company_Name {
+  color: #f4f4f4;
+  background-color: plum;
+  padding: 10px 50px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.about_company {
+  color: black;
+  text-align: center;
+  padding: 20px 10px;
+  border-bottom: dashed plum;
+}
+
+h1,
+h2 {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.team-name {
+  color: #f4f4f4;
+  text-align: center;
+  /* display: inline-block; */
+  background-color: plum;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  /* margin: 0 auto; */
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 150px));
+  gap: 20px;
+  padding: 5px;
+}
+
+.team-member {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.team-member h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.team-member p {
+  margin: 5px 0;
+  color: plum;
+  text-align: center;
+}
